@@ -68,8 +68,8 @@ span.text-red {
   margin-left: 6px;
 }
 .logo {
-  color: gray;
-  font-size: 18px;
+  color: #f02d34;
+  font-size: 20px;
 }
 .cart-icon {
   font-size: 25px;
@@ -240,7 +240,7 @@ span.text-red {
 .banner-desc .left p {
   margin: 18px;
 }
-.footer-banner-image {
+.-banner-image {
   position: absolute;
   /* top: -35%;
   left: 8%; */

@@ -1,10 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "e-commerce"
+    "name": "venderonlineloja"
   },
   "api": {
-    "projectId": "gelqwz1k",
+    "projectId": "h1g7r4lc",
     "dataset": "production"
   },
   "plugins": [

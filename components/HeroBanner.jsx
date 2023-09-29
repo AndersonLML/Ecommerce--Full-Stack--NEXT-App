@@ -4,6 +4,7 @@ import { urlFor } from "../lib/client";
 
 const HeroBanner = ({ heroBanner }) => {
   return (
+    <Link href={`/product/${heroBanner.product}`}>
     <div className="hero-banner-container">
       <div>
         <p className="beats-solo">{heroBanner.smallText}</p>
@@ -11,20 +12,22 @@ const HeroBanner = ({ heroBanner }) => {
         <h1>{heroBanner.largeText1}</h1>
         <img
           src={urlFor(heroBanner.image)}
-          alt="headphones"
+          alt="comprar barato"
           className="hero-banner-image"
         />
         <div>
-          <Link href={`/product/${heroBanner.product}`}>
-            <button type="button">{heroBanner.buttonText}</button>
-          </Link>
+          
+            
+          
           <div className="desc">
-            <h5>Description</h5>
+            <h5>Melhor Assistência Técnica de Barretos</h5>
             <p>{heroBanner.desc}</p>
           </div>
         </div>
       </div>
+      
     </div>
+    </Link>
   );
 };
 

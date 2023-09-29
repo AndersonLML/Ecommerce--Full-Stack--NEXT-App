@@ -7,10 +7,10 @@ const Layout = ({ children }) => {
   return (
     <div className="layout">
       <Head>
-        <title>Headphones, Earphones Online Store</title>
+        <title>SystemTec  - Produtos Eletrônicos</title>
         <meta
           name="description"
-          content="E-commerce App for Headphones, Earphones, Speakers. Build with NextJs, Sanity and Payment gateway: Stripe."
+          content="Ecommerce de Produtos Eletrônicos. SystemTec Informática"
         />
       </Head>
       <header>
