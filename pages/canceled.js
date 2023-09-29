@@ -1,5 +1,5 @@
 import { client } from '@/lib/client'
-import { HeroBanner, Product, FooterBanner } from '@/components'
+import { HeroBanner, Product, FooterBanner } from '../components'
 
 export default function Home({ products, bannerData }) {
   return (
